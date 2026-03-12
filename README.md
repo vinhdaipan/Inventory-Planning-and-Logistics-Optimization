@@ -17,10 +17,10 @@ Data cleaning and processing were performed using **PCS DW** and **Power Query**
 
 ## Key Analysis Phases
 **1. Descriptive Analysis (Inventory Planning)**
-**- Safety Stock:** The average of unit sold in HCMC area is from 316 to 335 units per week, so safety stock in this area is 335 units weekly
-**- Stock meet 90% service level:** Analysis determined that to meet a 90% service level, each hypermarket should maintain approximately 393 available items per week
-**- Demand Estimation:** The average weekly sales in the HCMC area range between 240 and 412 units
-**- Hypothesis Testing:** Using a T-test, it was confirmed (p-value < 0.05) that average weekly sales exceed 300 units per store
+- **Safety Stock:** The average of unit sold in HCMC area is from 316 to 335 units per week, so safety stock in this area is 335 units weekly
+- **Stock meet 90% service level:** Analysis determined that to meet a 90% service level, each hypermarket should maintain approximately 393 available items per week
+- **Demand Estimation:** The average weekly sales in the HCMC area range between 240 and 412 units
+- **Hypothesis Testing:** Using a T-test, it was confirmed (p-value < 0.05) that average weekly sales exceed 300 units per store
 
 **2. Predictive Analysis (Demand Forecasting)**
 A demand planning model was developed using Ordinary Least Squares (OLS) Regression
@@ -35,10 +35,10 @@ Non-direct Logistics: Utilizing a 3PL warehouse in Thu Duc City (Total Cost: **V
 **Conclusion:** The Non-direct Logistics model was selected as it is 9% more cost-effective than the direct method
 
 ## Tools Used
-Data Extraction: PCS DW
-Data Transformation: Power Query
-Statistical Analysis: Descriptive Statistics, T-test, OLS Regression
-Optimization: Excel Solver (Linear Programming for logistics)
+- Data Extraction: PCS DW
+- Data Transformation: Power Query
+- Statistical Analysis: Descriptive Statistics, T-test, OLS Regression
+- Optimization: Excel Solver (Linear Programming for logistics)
 
 # Results
 By implementing the suggested S&OP plan, GO! LONG TRUONG can expect to maintain high service levels with an optimized safety stock of 335-393 units while reducing monthly logistics expenditure by 9% through a centralized warehouse strategy.
