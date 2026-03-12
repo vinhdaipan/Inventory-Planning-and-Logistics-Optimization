@@ -31,15 +31,18 @@ Data cleaning and processing were performed using PCS DW and Power Query to hand
 A demand planning model was developed using Ordinary Least Squares (OLS) Regression  
 *Key Features:* The model utilizes stock_available, promotion_binary, rolling_mean_4, and momentum as significant predictors  
 *Performance:* The model explains approximately **37%** of weekly sales variance with an average **MAPE (Mean Absolute Percentage Error) of 17.02%**  
+
 ![regression](image/regression_output.jgp)
 
 
 **3. Prescriptive Analysis (Network Optimization)**  
 The project compared two logistics models for five southern suppliers:  
 *Direct Logistics:* Suppliers shipping directly to hypermarkets (Total Cost: **VND 31.247 million/month**)  
+
 ![direct](image/dirict.jgp)
 
 *Non-direct Logistics:* Utilizing a 3PL warehouse in Thu Duc City (Total Cost: **VND 28.705 million/month**)  
+
 ![non-direct](image/non_diriect.jgp)
 
 
