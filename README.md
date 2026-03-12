@@ -25,7 +25,8 @@ Data cleaning and processing were performed using PCS DW and Power Query to hand
 - **Stock meet 90% service level:** Analysis determined that to meet a 90% service level, each hypermarket should maintain approximately 393 available items per week
 - **Demand Estimation:** The average weekly sales in the HCMC area range between 240 and 412 units
 - **Hypothesis Testing:** Using a T-test, it was confirmed (p-value < 0.05) that average weekly sales exceed 300 units per store
-![chart](image/normal_distribution_chart.jgp)
+
+![chart](image/normal_distribution_chart.jpg)
 
 **2. Predictive Analysis (Demand Forecasting)**  
 A demand planning model was developed using Ordinary Least Squares (OLS) Regression  
