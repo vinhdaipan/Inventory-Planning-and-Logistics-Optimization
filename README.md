@@ -25,18 +25,22 @@ Data cleaning and processing were performed using PCS DW and Power Query to hand
 - **Stock meet 90% service level:** Analysis determined that to meet a 90% service level, each hypermarket should maintain approximately 393 available items per week
 - **Demand Estimation:** The average weekly sales in the HCMC area range between 240 and 412 units
 - **Hypothesis Testing:** Using a T-test, it was confirmed (p-value < 0.05) that average weekly sales exceed 300 units per store
-
 ![chart](image/normal_distribution_chart.jpg)
 
 **2. Predictive Analysis (Demand Forecasting)**  
 A demand planning model was developed using Ordinary Least Squares (OLS) Regression  
 *Key Features:* The model utilizes stock_available, promotion_binary, rolling_mean_4, and momentum as significant predictors  
 *Performance:* The model explains approximately **37%** of weekly sales variance with an average **MAPE (Mean Absolute Percentage Error) of 17.02%**  
+![regression](image/regression.jgp)
+
 
 **3. Prescriptive Analysis (Network Optimization)**  
 The project compared two logistics models for five southern suppliers:  
-. *Direct Logistics:* Suppliers shipping directly to hypermarkets (Total Cost: **VND 31.247 million/month**)  
-. *Non-direct Logistics:* Utilizing a 3PL warehouse in Thu Duc City (Total Cost: **VND 28.705 million/month**)  
+*Direct Logistics:* Suppliers shipping directly to hypermarkets (Total Cost: **VND 31.247 million/month**)  
+![direct](image/direct.jgp)
+
+*Non-direct Logistics:* Utilizing a 3PL warehouse in Thu Duc City (Total Cost: **VND 28.705 million/month**)  
+![non-direct](image/non_direct.jgp)
 
 
 **Conclusion:** The Non-direct Logistics model was selected as it is 9% more cost-effective than the direct method
