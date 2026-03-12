@@ -4,6 +4,7 @@
 This project focuses on the Sales and Operations Planning (S&OP) for Central Retail in Vietnam, specifically for the launch of a new hypermarket, **GO! LONG TRUONG**, scheduled to open in July 2026  
 The study centers on a high-performing FMCG product: **GO! Dried Mango (250G)**  
 The primary objective is to develop a strong inventory and logistics strategy for the first six months of operation (July–December 2026) to meet service level targets while minimizing costs and stockout risks
+![MAP](image/map.jpg)
 
 
 ## Problem Statement
