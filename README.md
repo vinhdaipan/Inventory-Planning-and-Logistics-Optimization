@@ -12,22 +12,22 @@ Central Retail aims to optimize the supply chain for its new location by answeri
 3. Which logistics network (Direct vs. Non-direct via a 3PL warehouse) **minimizes total costs**?
 
 ## Data Methodology
-Historical data from December 2023 to December 2025 was collected from three comparable hypermarkets in the Ho Chi Minh City area: **GO! AN LAC, GO! BINH DUONG, and GO! DONG NAI**
+Historical data from December 2023 to December 2025 was collected from three comparable hypermarkets in the Ho Chi Minh City area: **GO! AN LAC, GO! BINH DUONG, and GO! DONG NAI**  
 Data cleaning and processing were performed using **PCS DW** and **Power Query** to handle variables such as unit sales, promotions, and seasonality
 
 ## Key Analysis Phases
-**1. Descriptive Analysis (Inventory Planning)**
+**1. Descriptive Analysis (Inventory Planning)**  
 - **Safety Stock:** The average of unit sold in HCMC area is from 316 to 335 units per week, so safety stock in this area is 335 units weekly
 - **Stock meet 90% service level:** Analysis determined that to meet a 90% service level, each hypermarket should maintain approximately 393 available items per week
 - **Demand Estimation:** The average weekly sales in the HCMC area range between 240 and 412 units
 - **Hypothesis Testing:** Using a T-test, it was confirmed (p-value < 0.05) that average weekly sales exceed 300 units per store
 
-**2. Predictive Analysis (Demand Forecasting)**
+**2. Predictive Analysis (Demand Forecasting)**  
 A demand planning model was developed using Ordinary Least Squares (OLS) Regression
 Key Features: The model utilizes **stock_available, promotion_binary, rolling_mean_4, and momentum** as significant predictors  
 Performance: The model explains approximately **37%** of weekly sales variance with an average **MAPE (Mean Absolute Percentage Error) of 17.02%**  
 
-**3. Prescriptive Analysis (Network Optimization)**
+**3. Prescriptive Analysis (Network Optimization)**  
 The project compared two logistics models for five southern suppliers:  
 Direct Logistics: Suppliers shipping directly to hypermarkets (Total Cost: **VND 31.247 million/month**)  
 Non-direct Logistics: Utilizing a 3PL warehouse in Thu Duc City (Total Cost: **VND 28.705 million/month**)  
