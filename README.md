@@ -38,7 +38,7 @@ A demand planning model was developed using Ordinary Least Squares (OLS) Regress
 **3. Prescriptive Analysis (Network Optimization)**  
 The project compared two logistics models for five southern suppliers:  
 *Direct Logistics:* Suppliers shipping directly to hypermarkets (Total Cost: **VND 31.247 million/month**)  
-![direct](image/dirict.jpg)
+![direct](image/diriect.jpg)
 
 *Non-direct Logistics:* Utilizing a 3PL warehouse in Thu Duc City (Total Cost: **VND 28.705 million/month**)  
 ![non-direct](image/non_diriect.jpg)
